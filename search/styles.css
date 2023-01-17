@@ -3,7 +3,7 @@ body {
   font-size: 16px;
 }
 
-input[type=text] {
+form.basic input[type=text] {
   padding: 0px 20px;
   margin: 8px 0;
   width: 400px;
@@ -12,7 +12,7 @@ input[type=text] {
   height: 34px;
 }
 
-input[type=submit] {
+form.basic input[type=submit] {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -26,6 +26,10 @@ input[type=submit] {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+
+form.basic {
+  text-align: center;
 }
 
 a {
@@ -53,4 +57,30 @@ label {
 .advanced {
   border-radius: 1px;
 }
-​
+
+
+form.advanced input[type=submit] {
+  background-color: #4d90fe;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+form.advanced input[type=text] {
+  padding: 0px 10px;
+  margin: 8px 0;
+  width: 400px;
+  max-width: 584px;
+  border-radius: 1px;
+  height: 34px;
+  font-size: 100%;
+}
